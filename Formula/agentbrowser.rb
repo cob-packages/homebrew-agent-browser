@@ -14,6 +14,5 @@ class Agentbrowser < Formula
 
   def install
     bin.install "agent-browser"
-    system "#{bin}/agent-browser"
   end
 end
