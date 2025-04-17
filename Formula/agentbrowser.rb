@@ -6,7 +6,7 @@ class Agentbrowser < Formula
 
   if OS.mac?
     url "https://storage.googleapis.com/cobrowser-images/agent-browser-v1.3.2-darwin-arm64.tar.gz"
-    sha256 "3078c6bf4de631b8356430d3fc8e917f2c39e35a0a04ce4db65ff6c54d716a51"
+    sha256 "198dddbcd5c5ea2f00bc4e5ed59a1d20a8d073526fa1b15b1161aef3d743485c"
   elsif OS.linux?
     url "https://github.com/co-browser/agent-browser/releases/download/v1.3.2/agent-browser-v1.3.2-linux-amd64.tar.gz"
     sha256 "9aa9f8a19a68df141c135b7c2024e085faddf2395ab3336d6bb4292a78454d95"
