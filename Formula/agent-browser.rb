@@ -17,7 +17,7 @@ class AgentBrowser < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/co-browser/agent-browser/releases/download/v1.0.0/agent-browser-v1.0.0-darwin-arm64.tar.gz"
+      url "https://storage.googleapis.com/cobrowser-images/agent-browser-v1.0.0-darwin-arm64.tar.gz"
       sha256 "3fdfb6222af7cfb518d6dbae7126dd69b0fa44e0ff5fac2646867b9e9b3a480f"
 
       def install
