@@ -1,4 +1,4 @@
-class Agentbrowser < Formula
+class AgentBrowser < Formula
   desc "agent-browser: a navigator for agents"
   homepage "https://github.com/co-browser/agent-browser"
   version "1.3.2"
